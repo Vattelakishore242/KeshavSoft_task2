@@ -1,0 +1,53 @@
+<section id="tools" class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center mb-5">
+                <h2 class="section-title display-5 fw-bold">
+                    🤖 Tools & Resources Used
+                </h2>
+            </div>
+        </div>
+        
+        <div class="row g-4">
+            {% for tool in tools %}
+            <div class="col-lg-4">
+                <div class="card card-hover h-100">
+                    <div class="card-body p-4">
+                        <div class="d-flex align-items-center mb-4">
+                            <div class="bg-{{ tool.color }} text-white rounded-circle p-3 me-3">
+                                {% if tool.category == "AI Tools" %}
+                                    <i class="fas fa-robot"></i>
+                                {% elif tool.category == "Official Documentation" %}
+                                    <i class="fas fa-book"></i>
+                                {% else %}
+                                    <i class="fas fa-bug"></i>
+                                {% endif %}
+                            </div>
+                            <div class="flex-grow-1">
+                                <h5 class="card-title mb-1">{{ tool.category }}</h5>
+                                <div class="progress progress-custom mb-2">
+                                    <div class="progress-bar bg-{{ tool.color }}" style="width: {{ tool.percentage }}%;"></div>
+                                </div>
+                                <small class="text-muted">{{ tool.percentage }}% Usage</small>
+                            </div>
+                        </div>
+                        
+                        <h6 class="fw-bold mb-3">{{ tool.description }}</h6>
+                        
+                        <ul class="list-unstyled">
+                            {% for feature in tool.features %}
+                            <li class="mb-2">
+                                <span class="badge bg-{{ tool.color }} bg-opacity-10 text-{{ tool.color }} me-2">
+                                    ✓
+                                </span>
+                                <small>{{ feature }}</small>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

@@ -1,0 +1,146 @@
+{
+  "site": {
+    "title": "KeshavSoft – Bootstrap 5 React Application",
+    "description": "Internship Task Document showcasing 3-hour development process using Nunjucks templating and Vite bundler",
+    "author": "Kishore Vattela",
+    "duration": "3 hours",
+    "techStack": "Nunjucks + Vite + Bootstrap 5"
+  },
+  "hero": {
+    "title": "🚀 KeshavSoft – Bootstrap 5 React Application",
+    "subtitle": "Project Overview",
+    "duration": "3 hours (Single session)",
+    "techStack": "React.js 18, Bootstrap 5.3, React Router DOM",
+    "outcome": "Fully responsive, modern web application with 3 pages",
+    "demoUrl": "https://vattelakishore242.github.io/KeshavSoft_Task1/",
+    "sourceUrl": "https://github.com/Vattelakishore242/KeshavSoft_Task1/tree/main"
+  },
+  "process": {
+    "title": "🛠️ Step-by-Step Development Process",
+    "subtitle": "Complete Development Session (3 hours)",
+    "steps": [
+      {
+        "hour": "Hour 1",
+        "title": "Setup, Planning & Foundation",
+        "duration": "60 minutes",
+        "color": "primary",
+        "tasks": [
+          "Project setup and environment preparation (15 min)",
+          "Analyzed internship requirements and structured layout (20 min)", 
+          "Integrated Bootstrap 5 and configured React Router (25 min)"
+        ]
+      },
+      {
+        "hour": "Hour 2", 
+        "title": "Core Component Development",
+        "duration": "60 minutes",
+        "color": "success",
+        "tasks": [
+          "Built Hero section with gradient background (20 min)",
+          "Developed Contact form with validation (20 min)",
+          "Designed About section with statistics (20 min)"
+        ]
+      },
+      {
+        "hour": "Hour 3",
+        "title": "Styling, Polish & Deployment", 
+        "duration": "60 minutes",
+        "color": "warning",
+        "tasks": [
+          "Added CSS animations and hover effects (25 min)",
+          "Code cleanup and cross-browser testing (20 min)",
+          "GitHub setup and deployment configuration (15 min)"
+        ]
+      }
+    ]
+  },
+  "tools": [
+    {
+      "category": "AI Tools",
+      "percentage": 85,
+      "color": "primary",
+      "description": "ChatGPT / AI Assistant",
+      "features": [
+        "Generated complete React component boilerplate",
+        "Provided guidance on React hooks and state management", 
+        "Suggested Bootstrap class combinations and layouts",
+        "Assisted with CSS animations and responsive design",
+        "Advised on folder structure and coding best practices"
+      ]
+    },
+    {
+      "category": "Official Documentation", 
+      "percentage": 10,
+      "color": "success",
+      "description": "Reference Materials",
+      "features": [
+        "Bootstrap 5 Documentation for utility classes",
+        "React Documentation for hooks verification",
+        "MDN Web Docs for CSS properties"
+      ]
+    },
+    {
+      "category": "Problem-Solving Resources",
+      "percentage": 5, 
+      "color": "warning",
+      "description": "Debugging Tools",
+      "features": [
+        "Browser DevTools for responsive testing",
+        "Console debugging for state management",
+        "React Developer Tools for component inspection"
+      ]
+    }
+  ],
+  "challenges": [
+    {
+      "challenge": "Managing Time Constraints",
+      "problem": "Delivering a complete application in just 3 hours",
+      "solution": "Used AI tools heavily for rapid code generation, focused on core functionality first",
+      "color": "danger"
+    },
+    {
+      "challenge": "Bootstrap-React Integration", 
+      "problem": "Quickly combining Bootstrap components with React patterns",
+      "solution": "Followed AI-generated integration patterns and tested components incrementally",
+      "color": "primary"
+    },
+    {
+      "challenge": "Ensuring Responsive Design",
+      "problem": "Making all components mobile-friendly in limited time", 
+      "solution": "Relied on Bootstrap's built-in responsive classes, used AI suggestions for custom CSS",
+      "color": "success"
+    },
+    {
+      "challenge": "Component State Management",
+      "problem": "Implementing interactive features (forms, counters)",
+      "solution": "Used AI-generated React hooks patterns, focused on functional components",
+      "color": "warning"
+    }
+  ],
+  "timeBreakdown": [
+    { "task": "Setup & Planning", "time": 35, "percentage": 19.4, "color": "primary" },
+    { "task": "Component Development", "time": 100, "percentage": 55.6, "color": "success" },
+    { "task": "Styling & Responsiveness", "time": 25, "percentage": 13.9, "color": "warning" },
+    { "task": "Testing & Polish", "time": 15, "percentage": 8.3, "color": "info" },
+    { "task": "Deployment Setup", "time": 5, "percentage": 2.8, "color": "secondary" }
+  ],
+  "achievements": [
+    "Three fully functional pages: Home, About, Contact",
+    "Mobile-first responsive design with Bootstrap grid", 
+    "Interactive components: forms, animations, hover effects",
+    "Clean, modern UI with professional styling",
+    "Deployment-ready (GitHub Pages configured)"
+  ],
+  "features": [
+    "Responsive navbar with active state",
+    "Hero section with gradient background",
+    "Feature cards with hover effects", 
+    "Contact form with validation and success alert",
+    "Statistics section with animated counters",
+    "Newsletter signup functionality"
+  ],
+  "links": {
+    "github": "https://github.com/Vattelakishore242/Vattelakishore242.git",
+    "linkedin": "https://www.linkedin.com/in/kishore-vattela-a266b1255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+  }
+}

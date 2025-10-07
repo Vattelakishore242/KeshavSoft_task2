@@ -1,0 +1,54 @@
+<section id="process" class="py-5 bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center mb-5">
+                <h2 class="section-title display-5 fw-bold">
+                    {{ process.title }}
+                </h2>
+                <p class="lead text-muted">{{ process.subtitle }}</p>
+            </div>
+        </div>
+        
+        <div class="row g-4">
+            {% for step in process.steps %}
+            <div class="col-lg-4">
+                <div class="card card-hover h-100">
+                    <div class="card-body p-4">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="bg-{{ step.color }} text-white rounded-circle p-3 me-3">
+                                {% if step.hour == "Hour 1" %}
+                                    <i class="fas fa-tools"></i>
+                                {% elif step.hour == "Hour 2" %}
+                                    <i class="fas fa-code"></i>
+                                {% else %}
+                                    <i class="fas fa-rocket"></i>
+                                {% endif %}
+                            </div>
+                            <div>
+                                <h5 class="card-title mb-1">{{ step.hour }}</h5>
+                                <small class="text-muted">
+                                    <i class="fas fa-clock me-1"></i>
+                                    {{ step.duration }}
+                                </small>
+                            </div>
+                        </div>
+                        
+                        <h6 class="fw-bold mb-3">{{ step.title }}</h6>
+                        
+                        <ul class="list-unstyled">
+                            {% for task in step.tasks %}
+                            <li class="mb-2">
+                                <span class="badge bg-{{ step.color }} bg-opacity-10 text-{{ step.color }} me-2">
+                                    ✓
+                                </span>
+                                <small>{{ task }}</small>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

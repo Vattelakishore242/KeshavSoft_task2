@@ -1,16 +1,81 @@
-# React + Vite
+project:
+  name: KeshavSoft Task 2 – Nunjucks + Vite
+  description: "Recreation of Task 1 Internship Document using Nunjucks templating and Vite bundler. Fully responsive HTML pages with partials, JSON content, and Bootstrap 5 styling."
+  duration: "Single session (variable)"
+  tech_stack:
+    templating_engine: Nunjucks
+    bundler: Vite
+    styling: Bootstrap 5 + Custom CSS
+    javascript: Vanilla JS
+    icons: React Icons / Font Awesome
+    content: JSON
+    optional_concept: Jamstack
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+folder_structure:
+  task2-keshavsoft-nunjucks-vite:
+    src:
+      templates:
+        layouts: base.njk
+        pages: index.njk
+        partials:
+          - header.njk
+          - hero.njk
+          - process.njk
+          - tools.njk
+          - challenges.njk
+          - timeline.njk
+          - footer.njk
+      data: content.json
+      assets:
+        css: styles.css
+        js: main.js
+    scripts:
+      - build-templates.js
+    public: []
+    root_files:
+      - package.json
+      - vite.config.js
+      - README.md
 
-Currently, two official plugins are available:
+features_implemented:
+  - Fully templated HTML pages using Nunjucks
+  - Partial-based architecture (header, footer, hero, etc.)
+  - Dynamic content from content.json
+  - Responsive design using Bootstrap 5
+  - Smooth section layouts with Task 1 consistency
+  - Clickable links, emojis, and styled content
+  - Build automation with Vite for development and preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+installation_usage:
+  steps:
+    - step: Clone the repository
+      command: git clone https://github.com/Vattelakishore242/keshavsoft-task2.git
+    - step: Navigate to project directory
+      command: cd keshavsoft-task2
+    - step: Install dependencies
+      command: npm install
+    - step: Build templates
+      command: npm run build-templates
+      description: Compiles src/templates/pages/index.njk → dist/index.html
+    - step: Run development server
+      command: npm run dev
+      description: Open browser at http://localhost:5173 to preview
+    - step: Production Build
+      command: npm run build
+      description: Builds the static site ready for deployment
 
-## React Compiler
+mandatory_requirements:
+  - Nunjucks used for all templates
+  - Vite used for bundling & development server
+  - Final HTML output replicates Task 1 document in style, emojis, and formatting
+  - Folder structure follows Task 2 specifications
+  - README explains setup, usage, and technology stack
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+project_outcome:
+  - Successfully recreated Task 1 Internship Document
+  - Demonstrated Jamstack-like architecture
+  - Clean, maintainable codebase with reusable templates and partials
+  - Fully responsive and visually consistent static site
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+live_preview: "Replace with deployed link"
+source_code: "https://github.com/Vattelakishore242/keshavsoft-task2"

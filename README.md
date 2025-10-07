@@ -1,8 +1,8 @@
 project:
-  name: KeshavSoft Task 2 – Nunjucks + Vite
+  - name: KeshavSoft Task 2 – Nunjucks + Vite
   description: >
-    Recreation of Task 1 Internship Document using Nunjucks templating and Vite bundler.
-    Fully responsive HTML pages with partials, JSON content, and Bootstrap 5 styling.
+    - Recreation of Task 1 Internship Document using Nunjucks templating and Vite bundler.
+    - Fully responsive HTML pages with partials, JSON content, and Bootstrap 5 styling.
   duration: Single session (variable)
   tech_stack:
     - Templating Engine: Nunjucks

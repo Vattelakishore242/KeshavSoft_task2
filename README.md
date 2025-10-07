@@ -73,5 +73,5 @@ project_outcome:
   - Fully responsive and visually consistent static site
 
 links:
-  live_preview: "Replace with deployed link"
-  source_code: "https://github.com/Vattelakishore242/keshavsoft-task2"
+  - live_preview: "Replace with deployed link"
+  - source_code: "https://github.com/Vattelakishore242/keshavsoft-task2"

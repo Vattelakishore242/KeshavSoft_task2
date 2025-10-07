@@ -1,6 +1,6 @@
 project:
   - name: KeshavSoft Task 2 – Nunjucks + Vite
-  description: >
+  - description: >
     - Recreation of Task 1 Internship Document using Nunjucks templating and Vite bundler.
     - Fully responsive HTML pages with partials, JSON content, and Bootstrap 5 styling.
   duration: Single session (variable)
@@ -15,29 +15,29 @@ project:
 
 folder_structure:
   task2-keshavsoft-nunjucks-vite:
-    - src:
-        - templates:
-            - layouts: base.njk
-            - pages: index.njk
-            - partials:
-              - header.njk
-              - hero.njk
-              - process.njk
-              - tools.njk
-              - challenges.njk
-              - timeline.njk
-              - footer.njk
-        - data: content.json
-        - assets:
-            - css: styles.css
-            - js: main.js
-    - scripts:
-        - build-templates.js
-    - public: []
-    - root_files:
-        - package.json
-        - vite.config.js
-        - README.md
+    -- src:
+        -- templates:
+            -- layouts: base.njk
+            -- pages: index.njk
+            -- partials:
+              -- header.njk
+              -- hero.njk
+              -- process.njk
+              -- tools.njk
+              -- challenges.njk
+              -- timeline.njk
+              -- footer.njk
+        -- data: content.json
+        -- assets:
+            -- css: styles.css
+            -- js: main.js
+    -- scripts:
+        -- build-templates.js
+    -- public: []
+    -- root_files:
+        -- package.json
+        -- vite.config.js
+        -- README.md
 
 features_implemented:
   - Fully templated HTML pages using Nunjucks
